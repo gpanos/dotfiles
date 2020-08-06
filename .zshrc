@@ -1,3 +1,6 @@
+# Make vim the default editor.
+export EDITOR='vim';
+
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 

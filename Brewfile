@@ -25,6 +25,9 @@ brew 'trash'
 brew 'tree'
 brew 'zlib'
 
+# Vim 
+brew 'vim', args: ['with-override-system-vi']
+
 # Spatie Medialibrary
 brew 'jpegoptim'
 brew 'optipng'
