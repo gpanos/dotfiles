@@ -26,7 +26,7 @@ brew 'tree'
 brew 'zlib'
 
 # Vim 
-brew 'vim', args: ['with-override-system-vi']
+brew 'vim --with-override-system-vi'
 
 # Spatie Medialibrary
 brew 'jpegoptim'
