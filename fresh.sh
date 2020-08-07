@@ -37,6 +37,12 @@ mkdir $HOME/Sites/laravel
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Symlink vim prefs
+rm $HOME/.vimrc
+ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
+rm $HOME/.vim
+ln -s $HOME/.dotfiles/.vim $HOME/.vim
+
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
