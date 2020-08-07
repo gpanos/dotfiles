@@ -19,6 +19,9 @@ alias seed="php artisan db:seed"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
+alias pu="vendor/bin/phpunit"
+alias puf="vendor/bin/phpunit --filter "
+alias pug="vendor/bin/phpunit --group "
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
