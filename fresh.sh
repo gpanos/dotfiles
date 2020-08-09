@@ -43,6 +43,10 @@ ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
 rm $HOME/.vim
 ln -s $HOME/.dotfiles/.vim $HOME/.vim
 
+# Symlink .hushlogin
+rm -rf $HOME/.hushlogin
+ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
+
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
