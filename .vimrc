@@ -89,9 +89,16 @@ set ignorecase
 set smartcase
 
 "-------------Visuals--------------"
+" If available use true colors
+if (has("termguicolors")) 
+    set termguicolors
+endif 
+
+" Set colorscheme to atom one light
+colorscheme one 
+set background=light
+
 if has('gui_running')
-    " Set colorscheme when gui running
-    colorscheme atom-dark
     " Set the default font family and size.
     set guifont=Fira\ Code:h17
     " We want pretty symbols, when available.
@@ -111,8 +118,6 @@ if has('gui_running')
     " Get rid of ugly split borders.
     hi vertsplit guifg=bg guibg=bg
 else
-    " Set colorscheme when running in terminal 
-    colorscheme atom-dark-256
     " Use 256 colors. This is useful for Terminal Vim.
     set t_Co=256
 endif
@@ -200,6 +205,7 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 "/
 ""/ Airline 
 "/
+let g:airline_theme='one'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
