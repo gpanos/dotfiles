@@ -44,6 +44,10 @@ ln -s $HOME/.dotfiles/.vim $HOME/.vim
 rm -rf $HOME/.hushlogin
 ln -s $HOME/.dotfiles/.hushlogin $HOME/.hushlogin
 
+# Symlink .gitignore_global
+rm -rf $HOME/.gitignore_global
+ln -s $HOME/.dotfiles/.gitignore_global $HOME/.gitignore_global
+
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
