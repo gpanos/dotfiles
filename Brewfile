@@ -71,6 +71,7 @@ cask 'virtualbox-extension-pack'
 cask 'visual-studio-code'
 cask 'tower'
 cask 'iterm2'
+cask 'alfred'
 
 # Fonts
 cask 'font-lato'
