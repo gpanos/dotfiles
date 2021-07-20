@@ -18,7 +18,7 @@ brew bundle
 pecl install memcached imagick
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose friendsofphp/php-cs-fixer
+/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
