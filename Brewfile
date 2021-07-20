@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
 brew 'awscli'
@@ -63,6 +64,7 @@ cask 'visual-studio-code'
 cask 'tower'
 cask 'iterm2'
 cask 'alfred'
+cask 'phpmon'
 
 # Fonts
 cask 'font-lato'
