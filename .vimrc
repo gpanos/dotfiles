@@ -94,9 +94,9 @@ if (has("termguicolors"))
     set termguicolors
 endif 
 
-" Set colorscheme to atom one light
+" Set colorscheme to atom one 
 colorscheme one 
-set background=light
+set background=dark
 
 if has('gui_running')
     " Set the default font family and size.
