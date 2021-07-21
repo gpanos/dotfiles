@@ -162,6 +162,11 @@ nmap <D-p> :CtrlP<cr>
 nmap <D-r> :CtrlPBufTag<cr>
 nmap <D-e> :CtrlPMRUFiles<cr>
 
+""/
+"/ SnipMate
+"/
+let g:snipMate = {'snippet_version': 1}
+
 "/
 ""/ NERDTree
 "/
